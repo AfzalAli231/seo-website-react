@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.lines{
+    width: 100%;
+    height: 20px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+}
+.line-1{
+    background-color: rgb(255, 180, 0);
+    width: 50%;
+}
+.line-2{
+    background-color: #fff;
+    width: 50%;
+}
+header {
+text-transform: uppercase;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+background: url(./header.png) no-repeat center center /cover;
+height: 100%;
+width: 100%;
+padding: 29.95rem 0;
+}
+header h1{
+    position: absolute;
+    top: 10rem;
+    left: 22%;
+    font-size: 5rem;
+}
+header h2{
+    position: absolute;
+    top: 15rem;
+    left: 22.5%;
+    margin-top: 1rem;
+    font-size: 2.12rem;
+    font-weight: 500;
+}
+.adsa{
+top: 19rem;
+left: 29%;
+}
+.play{
+    position: absolute;
+    bottom: 10rem;
+    right: 10%;
+    border-radius: 8px;
+}
+.time{
+    position: absolute;
+    bottom: 10.3rem;
+    left: 10%;
+    padding: 8rem 16rem;
+    border-radius: 8px;
+}
+.days{
+    position: absolute;
+    bottom: 24.3rem;
+    left: 10%;
+}
+.days h1{
+    font-size: 2rem;
+    background: rgb(255, 180, 0);
+    padding: 1rem;
+    border-radius: 8px;
+}
+.days h3{
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: -15.6rem;
+    left: 1.2rem;
+}
+.hours{
+    position: absolute;
+    bottom: 24.3rem;
+    left: 31%;
+}
+.hours h1{
+    font-size: 2rem;
+    background: rgb(255, 180, 0);
+    padding: 1rem;
+    border-radius: 8px;
+}
+.hours h3{
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: -15.6rem;
+    left: 0.9rem;
+}
+.mints{
+    position: absolute;
+    bottom: 24.3rem;
+    left: 55%;
+}
+.mints h1{
+    font-size: 2rem;
+    background: rgb(255, 180, 0);
+    padding: 1rem;
+    border-radius: 8px;
+} 
+.mints h3{
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: -15.6rem;
+    left: 0.6rem;
+}
+.secs{
+    position: absolute;
+    bottom: 24.3rem;
+    left: 75%;
+}
+.secs h1{
+    font-size: 2rem;
+    background: rgb(255, 180, 0);
+    padding: 1rem;
+    border-radius: 8px;
+}
+.secs h3{
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: -15.6rem;
+    left: 0.5rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: rgb(92, 61, 148);
+    position: absolute;
+    padding: 1rem 1rem;
+    bottom: 3.5rem;
+    left: 3.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.services{
+    width: 100%;
+    height: 50%;
+}
+.services h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+.services p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+.services p .p2{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+.services .iframe{
+    margin-top: 6rem;
+}
+.promotion{
+    background-color: rgb(255, 180, 0);
+    padding: 3.2rem 40%;
+    padding-bottom: 12rem;
+    margin-top: 10rem;
+    text-transform: uppercase;
+}
+.promotion h1{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: -51rem;
+    left:18rem;
+}
+.promotion #name{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: rgb(85, 9, 226);
+    position: absolute;
+    bottom: -58rem;
+    padding: 1rem 7rem;
+    left:8rem;
+    text-align: center;
+    border: none;
+}
+
+.promotion #email{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: rgb(85, 9, 226);
+    position: absolute;
+    bottom: -58rem;
+    padding: 1rem 7rem;
+    left:35rem;
+    text-align: center;
+    border: none;
+}
+.promotion #btn{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: -58rem;
+    padding: 1rem 7rem;
+    right:7rem;
+    text-align: center;
+    border: none;
+    background-color: rgb(85, 9, 226);
+}
+.benefits{
+    width: 100%;
+    height: 50%;
+    padding-bottom: 5rem;
+    background-color: rgb(214, 214, 214);
+}
+.benefits h1{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    font-weight: bold;
+}
+.benefits .cards {
+    padding: 24.5rem 50%;
+}
+.cards .card1{
+    background-color: #fff;
+    padding: 3rem 1rem;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -99rem;
+    left: 2rem;
+}
+.cards .card1 img {
+    color: rgb(255, 180, 0);
+    font-size: 6rem;
+    z-index: 2rem;
+    margin-bottom: 2rem;
+}
+.cards .card1 h3{
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.cards .card1 p{
+    font-size: 0.8rem;
+    letter-spacing: 2;
+    line-height: 1.5;
+}
+.cards .card2{
+    background-color: #fff;
+    padding: 3rem 1rem;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -99rem;
+    left: 30.5rem;
+}
+.cards .card2 img {
+    color: rgb(255, 180, 0);
+    font-size: 6rem;
+    z-index: 2rem;
+    margin-bottom: 2rem;
+}
+.cards .card2 h3{
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.cards .card2 p{
+    font-size: 0.8rem;
+    letter-spacing: 1;
+    line-height: 1.5;
+}.cards .card3{
+    background-color: #fff;
+    padding: 3rem 1rem;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -99rem;
+    left: 59rem;
+}
+.cards .card3 img {
+    color: rgb(255, 180, 0);
+    font-size: 6rem;
+    z-index: 2rem;
+    margin-bottom: 2rem;
+}
+.cards .card3 h3{
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.cards .card3 p{
+    font-size: 0.8rem;
+    letter-spacing: 1;
+    line-height: 1.5;
+}.cards .card4{
+    background-color: #fff;
+    padding: 3rem 1rem;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -122rem;
+    left: 2rem;
+}
+.cards .card4 img {
+    color: rgb(255, 180, 0);
+    font-size: 6rem;
+    z-index: 2rem;
+    margin-bottom: 2rem;
+}
+.cards .card4 h3{
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.cards .card4 p{
+    font-size: 0.8rem;
+    letter-spacing: 1;
+    line-height: 1.5;
+}.cards .card5{
+    background-color: #fff;
+    padding: 3rem 1rem;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -122rem;
+    left: 30.2rem;
+}
+.cards .card5 img {
+    color: rgb(255, 180, 0);
+    width: 6rem;
+    height: 6rem;
+    font-size: 6rem;
+    z-index: 2rem;
+    margin-bottom: 2rem;
+}
+.cards .card5 h3{
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.cards .card5 p{
+    font-size: 0.8rem;
+    letter-spacing: 1;
+    line-height: 1.5;
+}.cards .card6{
+    background-color: #fff;
+    padding: 3rem 1rem;
+    border-radius: 8px;
+    position: absolute;
+    bottom: -122rem;
+    left: 59rem;
+}
+.cards .card6 img {
+    color: rgb(255, 180, 0);
+    font-size: 6rem;
+    z-index: 2rem;
+    margin-bottom: 2rem;
+}
+.cards .card6 h3{
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.cards .card6 p{
+    font-size: 0.8rem;
+    letter-spacing: 1;
+    line-height: 1.5;
+}
+.search-generator{
+    padding: 6rem 2rem;
+    padding-bottom: 9.5rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.search-generator h3{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    bottom: -137.5rem;
+    left: 3rem;
+}
+.search-generator p{
+    text-transform: capitalize;
+    text-align: start;
+    font-size: 1rem;
+    color: #000;
+    position: absolute;
+    bottom: -147.5rem;
+    left: 3rem;
+    line-height: 1.3;
+    width: 510px;
+}
+.search-generator .learn-more{
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    position: absolute;
+    bottom: -155.5rem;
+    left: 3rem;
+}
+.sales{
+    background-color: rgb(255, 180, 0);
+    padding: 4rem 50%;
+}
+.sales h1{
+    position: absolute;
+    bottom: -183rem;
+    left: 30rem;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+}
+.sales h1 strong{
+    background-color: rgb(85, 9, 226);
+    padding: 1rem 1rem;
+    border-radius: 3rem;
+}
+footer{
+    background-color: rgb(85, 9, 226);
+    padding: 4rem 10rem;
+    color: white;
+}
+footer img{
+    margin-bottom: 3rem;
+}
+footer .headings{
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+.phone{
+    position: absolute;
+    bottom: -203.3rem;
+    left: 29rem;
+}
+.email{
+    position: absolute;
+    bottom: -203.5rem;
+    left: 49rem;
+}
+.icon-ph{
+    position: absolute;
+    bottom: -206.5rem;
+    left: 26rem;
+}
+.icon-em{
+    position: absolute;
+    bottom: -206.5rem;
+    left: 46rem;
+}
+.flex-2{
+    margin-bottom: 4rem;
+}
+.end-line{
+    padding: 1rem 10rem;
+    background-color: rgb(255, 180, 0);
+    position: absolute;
+    bottom: -209.7rem;
+    width: 100%;
+    left: 0rem;
+}
